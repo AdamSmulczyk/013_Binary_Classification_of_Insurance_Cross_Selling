@@ -1,0 +1,13 @@
+Binary Classification of Insurance Cross Selling
+
+Your Goal:The objective is to predict which customers respond positively to an automobile insurance offer. 
+
+Evaluation
+Submissions are evaluated using area under the ROC curve using the predicted probabilities and the ground truth targets.
+
+Dataset Description
+The dataset (both train and test) was generated from a deep learning model trained on the Health Insurance Cross Sell Prediction Data dataset. Feature distributions are close to, but not exactly the same, as the original. Feel free to use the original dataset, both to explore differences as well as to see whether incorporating the original in training improves model performance.
+Files
+train.csv - the training dataset; Response is the binary target
+test.csv - the test dataset; your objective is to predict the probability of Response for each row
+sample_submission.csv - a sample submission file in the correct format
